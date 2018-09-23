@@ -8,6 +8,8 @@ class NeyronLayer:
 
     def test_shape(self, __test_shape: list) -> list:
         assert len(__test_shape) == self.__size
+        iterations = 1000
+        cur = 0
         Xi = __test_shape.copy()
         flag = True
         while flag:
@@ -16,5 +18,9 @@ class NeyronLayer:
                 current[i] = self.__neyrons[i].test_shape(Xi)
             if Xi == current:
                 flag = False
+            if cur == iterations:
+                print("out of operations")
+                flag = False
             Xi = current
+            cur += 1
         return Xi
