@@ -1,8 +1,21 @@
-from hopfild import neyron_layer_builder as nlb
 from hop_parser import imageParser as imp
+from hop_parser import noiseGenerator as ng
+from hopfild import neyron_layer_builder as nlb
+
+
+def generate_noise(__original: list, __count: int, __noises: list):
+    for origin in __original:
+        for i in __noises:
+            outGen = "./testShape/" + origin.rsplit(".")[1].split("/")[-1] + "_" + str(i) + "_"
+            for j in range(0, __count):
+                ng.gen_noise(origin, outGen + str(j) + ".png", i)
+
 
 if __name__ == "__main__":
     SIZE = 10
+
+    NOISES = [0, 10, 20, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100]
+    NOISE_COUNT = 10
 
     learnShapesFiles = [
         "./learnShape/D.png",
@@ -10,49 +23,15 @@ if __name__ == "__main__":
         "./learnShape/X.png"
     ]
 
-    testShapesFiles = [
-        "./testShape/D0.png",
-        "./testShape/D10.png",
-        "./testShape/D20.png",
-        "./testShape/D30.png",
-        "./testShape/D35.png",
-        "./testShape/D40.png",
-        "./testShape/D45.png",
-        "./testShape/D50.png",
-        "./testShape/D60.png",
-        "./testShape/D70.png",
-        "./testShape/D80.png",
-        "./testShape/D90.png",
-        "./testShape/D100.png",
+    symbols = ["D", "H", "X"]
 
-        "./testShape/H0.png",
-        "./testShape/H10.png",
-        "./testShape/H20.png",
-        "./testShape/H30.png",
-        "./testShape/H35.png",
-        "./testShape/H40.png",
-        "./testShape/H45.png",
-        "./testShape/H50.png",
-        "./testShape/H60.png",
-        "./testShape/H70.png",
-        "./testShape/H80.png",
-        "./testShape/H90.png",
-        "./testShape/H100.png",
+    testShapesFiles = []
+    for symbol in symbols:
+        for noise in NOISES:
+            for i in range(0, NOISE_COUNT):
+                testShapesFiles.append("./testShape/" + str(symbol) + "_" + str(noise) + "_" + str(i) + ".png")
 
-        "./testShape/X0.png",
-        "./testShape/X10.png",
-        "./testShape/X20.png",
-        "./testShape/X30.png",
-        "./testShape/X35.png",
-        "./testShape/X40.png",
-        "./testShape/X45.png",
-        "./testShape/X50.png",
-        "./testShape/X60.png",
-        "./testShape/X70.png",
-        "./testShape/X80.png",
-        "./testShape/X90.png",
-        "./testShape/X100.png"
-    ]
+    generate_noise(learnShapesFiles, NOISE_COUNT, NOISES)
 
     shapes = []
     for fileName in learnShapesFiles:
