@@ -185,86 +185,125 @@ for testFile in testShapesFiles:
 ```
 
 # Д results
-## Д 0% noise
+## Д 0% noise   
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/D0Res.png" alt="drawing" width="50" height="50"/>
 ## Д 10% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/D10Res.png" alt="drawing" width="50" height="50"/>
 ## Д 20% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/D20Res.png" alt="drawing" width="50" height="50"/>
 ## Д 30% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D30Res.png" alt="drawing" width="50" height="50"/>
 ## Д 35% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D35Res.png" alt="drawing" width="50" height="50"/>
 ## Д 40% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D40Res.png" alt="drawing" width="50" height="50"/>
 ## Д 45% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D45Res.png" alt="drawing" width="50" height="50"/>
 ## Д 50% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D50Res.png" alt="drawing" width="50" height="50"/>
 ## Д 60% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D60Res.png" alt="drawing" width="50" height="50"/>
 ## Д 70% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D70Res.png" alt="drawing" width="50" height="50"/>
 ## Д 80% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D80Res.png" alt="drawing" width="50" height="50"/>
 ## Д 90% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D90Res.png" alt="drawing" width="50" height="50"/>
 ## Д 100% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/D100Res.png" alt="drawing" width="50" height="50"/>
 
 # Н results
 ## Н 0% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/H0Res.png" alt="drawing" width="50" height="50"/>
 ## Н 10% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/H10Res.png" alt="drawing" width="50" height="50"/>
 ## Н 20% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/H20Res.png" alt="drawing" width="50" height="50"/>
 ## Н 30% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H30Res.png" alt="drawing" width="50" height="50"/>
 ## Н 35% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H35Res.png" alt="drawing" width="50" height="50"/>
 ## Н 40% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H40Res.png" alt="drawing" width="50" height="50"/>
 ## Н 45% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H45Res.png" alt="drawing" width="50" height="50"/>
 ## Н 50% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H50Res.png" alt="drawing" width="50" height="50"/>
 ## Н 60% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H60Res.png" alt="drawing" width="50" height="50"/>
 ## Н 70% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H70Res.png" alt="drawing" width="50" height="50"/>
 ## Н 80% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H80Res.png" alt="drawing" width="50" height="50"/>
 ## Н 90% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H90Res.png" alt="drawing" width="50" height="50"/>
 ## Н 100% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/H100Res.png" alt="drawing" width="50" height="50"/>
 
 # Х results
 ## Х 0% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/X0Res.png" alt="drawing" width="50" height="50"/>
 ## Х 10% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/X10Res.png" alt="drawing" width="50" height="50"/>
 ## Х 20% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/X20Res.png" alt="drawing" width="50" height="50"/>
 ## Х 30% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/X30Res.png" alt="drawing" width="50" height="50"/>
 ## Х 35% noise
+<input type="checkbox" enabled checked> valid </input>
 <img src="result/X35Res.png" alt="drawing" width="50" height="50"/>
 ## Х 40% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X40Res.png" alt="drawing" width="50" height="50"/>
 ## Х 45% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X45Res.png" alt="drawing" width="50" height="50"/>
 ## Х 50% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X50Res.png" alt="drawing" width="50" height="50"/>
 ## Х 60% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X60Res.png" alt="drawing" width="50" height="50"/>
 ## Х 70% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X70Res.png" alt="drawing" width="50" height="50"/>
 ## Х 80% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X80Res.png" alt="drawing" width="50" height="50"/>
 ## Х 90% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X90Res.png" alt="drawing" width="50" height="50"/>
 ## Х 100% noise
+<input type="checkbox" enabled> valid </input>
 <img src="result/X100Res.png" alt="drawing" width="50" height="50"/>
 
